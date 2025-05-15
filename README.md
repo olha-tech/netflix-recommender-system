@@ -28,7 +28,14 @@ recommender.run()
 
 # Input Data
 
-The dataset must be a .csv file. 
+The dataset must be a .csv file. The dataset should contain at least the following logical columns:
+
+- Title – the name of the show or movie
+- Genres – a list or string of associated genres
+- IMDb Average Rating – average rating score
+- IMDb Number of Votes – number of ratings/votes
+
+You can adjust the actual column names in the dataset using the self.colTitle dictionary in the class. Make sure the CSV you use includes the columns referenced in your colTitle dictionary.
 
 # Project Structure
 
