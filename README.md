@@ -11,14 +11,13 @@ This project implements a basic recommendation engine using a CSV dataset of Net
 - Ranking and displaying top N titles
 
 # Example usage
-recommender = netflixRecommenderSystem(
+best10Drama = netflixRecommenderSystem(
     datasetPath='netflix_titles.csv',
     genre='Drama',
-    votesThrs=0.8,   # Keep only top 20% by vote count
-    topN=10           # Show top 10 movies
-)
+    votesThrs=0.8,  
+    topN=10)
 
-recommender.run()
+best10Drama.run()
 
 # Requirements
 
